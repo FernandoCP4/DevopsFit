@@ -10,7 +10,7 @@ jobs:
     env:
       IMAGE_NAME: my-flask-app
       PROJECT_ID: proyecto-retodevops
-      CLOUDSDK_CORE_ACCOUNT: github-actions@proyecto-retodevops.iam.gserviceaccount.com
+      CLOUDSDK_CORE_ACCOUNT: caceresfernando95@gmail.com
 
     steps:
     - name: Checkout

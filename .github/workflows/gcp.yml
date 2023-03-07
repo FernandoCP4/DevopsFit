@@ -2,7 +2,7 @@
 name: Building my flask app and pushing to Google Cloud Platform
 on:
   push:
-    branches: [ main ]
+    branches: [ test ]
 jobs:
   build-push-gcr:
     name: Build and push to GCP
@@ -14,7 +14,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - uses: google-github-actions/setup-gcloud@main
+    - uses: google-github-actions/setup-gcloud@master
       with:
         service_account_key: ${{ secrets.SERVICE_ACCOUNT_KEY }}
         project_id: ${{ env.PROJECT_ID }}
@@ -27,7 +27,7 @@ jobs:
       run: |-
         gcloud auth configure-docker --quiet
 
-    - name: Push Docker iamge to Container Registry (GCR)
+    - name: Push Docker image to Container Registry (GCR)
       env: 
         GIT_TAG: v.0.1.0
       run: |-

@@ -1,12 +1,12 @@
 #Configurando Dockerfile
-FROM python:3.9-slim-buster
+FROM python:3.8-slim-buster
+#Directorio de trabajo
 WORKDIR /app
-#Requerimientos del app
-COPY requirements.txt .
-RUN pip3 install --no-cache-dir -r requirements.txt
 #Copiando la aplicacion dentro del contenedor
-COPY . .
+COPY . /app
+#Requerimientos del app
+RUN pip3 install -r requirements.txt
 #Exponiendo puerto indicado en el codigo
 EXPOSE 5000
-CMD ["python3","app.py"]
+CMD ["python","app.py"]
 

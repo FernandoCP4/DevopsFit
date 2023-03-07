@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "proyecto-retodevops",
+  "private_key_id": "0f256551bdca0858a9f99f433c51f6313430183c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC8C1vksBrJk3DI\ncMOnFVGp1eF2ddoMMFOKOuEI+B5KqUa9NV3VGARKD4GKBqz9cTWWLkO8QvA7bSd7\nOIiczy/w0/jgeBn/0WKBujPdn+kdPrirS8ulajaAczoWoqScB5K8jAqb9f0WUMBX\nL4Vyz9GB66nrWxjaIhtWuK5yHdcqIb5QdU9nvpWaWiGMpm4RAGzkS7GGGbRB0tpn\nGohJsmdCgiAe1kmiYIweHSVInfGp/sNbFNzwE3Hi1jgWxf5vTH7t/hgpnsC+pX2T\nBOj3u+08hQUTw/KzL0o0j3Hyo7Jah6PZofyyc7XFQUCIpMRpGEMpneMpXA96Mji7\nA4y8dlsfAgMBAAECggEAF86Tre0dGcEjab+xCDxwOtbGX9IwLr6IN7ttlc5H6NRB\nOEot3NaDZdb3DlZQXMPnm2G0bKdy36su8PA+3M90S9f3rdThbHGsuCzZTSk7gQWE\nVBeEAFIP9WI2i/q/vrX3aLc4I/etjj+J97UfVDelrX5RubzY9XY/oifpL1nCIxCr\n+9VmcFll+/kPx43LpoY0X1N0HMTlUrCFugCllVuQ9Ch4/2qNHSBkK9cOQXm0Na5A\nqo82wd4OfyOUKmw00YsfMchPG+3RbUXLxMJDlkKz4SZb52cgUsgmUG7E5xrwyCxY\neIUimzaYVzmrXdGR0rDnht8M+h36/ccwf+KCqVZxsQKBgQDklEEt4KdCLTR0+TTk\nbPnGNGkho3TbQKZJVnxZjFsQ5zyCSj+BK0uHwLUhvvNPIldvTZf3FvyudViSDWSk\nmBSCe8SybpFDjgO5Sm749ZmWTNcL2z2y67Flmgum+EBnZYfyAwplsQaT6w3XtnlZ\n849eaWg2k18bwnbvsfwYaepSLwKBgQDSmkSWmFvgzDt65Hf8Jnhxik4gNTgRw0qD\nUZhRU6LeTV0+7V+a5hQwsy72RQXiflzUxp1xr4jRrRlVSBmVG8XUYVTi7F/561Jv\nV06g7dQW+wwKT5jY2SwA9f57vnWABbElf44edCkeR2HXfTnCMHYU1VEFQo4oTitu\nQMl2Wmv6EQKBgECLhKQ5zcEoFqn5PPBLvXQ0lINFLthCtzH6U/7NXWG2iiWYZbpJ\nyXg5+GvhCb+MyPfLB2Bkg1GYHTyQv5yivRfjbzWbdzWGQpLt68wtPgNtC0Rz0kZV\nu7AfAa9SZo1L5El4hlUU2fCm7S++fSHjXtagGSdgEfk6vm8M6UzTi7FNAoGBAIvz\nZkbpIo1FSvWEo9NVQU66SOaQVx0+uOKBM4Y/3Qh7Qs7RcWn/IUWnnTqcbaewr0Ha\nZsAolPQ5Yo9QpWd4GEPlFkLiL3lmDtbcnuzEft9ynvKvKHRaBSryTdWvoGed4LV5\niVjlenmbmAJaPiq0h5OamgezzcItCCFxPi+/MOfxAoGABZyQYRSwNinikq3XzS/g\nqmZBofmH7IbapmOjpLBsnVGmBLFbuLPHsGLQYQseYJ7t3zkgC4P5M+B8z3rhtLh8\nn2BYy4ky4AwjDp/AJlnmFpVmeFo0tSVNDrk3cIecdAFa8InAUD6Qd7U8g/hg9Jwg\nKB4yAs2EzLvt7I0RkGjvnBk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "github-actions@proyecto-retodevops.iam.gserviceaccount.com",
+  "client_id": "105934369770572929716",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40proyecto-retodevops.iam.gserviceaccount.com"
+}

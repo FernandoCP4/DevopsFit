@@ -10,7 +10,7 @@ jobs:
     env:
       IMAGE_NAME: my-flask-app
       PROJECT_ID: proyecto-retodevops
-      CLOUDSDK_CORE_ACCOUNT: caceresfernando95@gmail.com
+      CLOUDSDK_CORE_ACCOUNT: github-actions@proyecto-retodevops.iam.gserviceaccount.com
 
     steps:
     - name: Checkout
@@ -18,8 +18,9 @@ jobs:
 
     - uses: google-github-actions/setup-gcloud@v1
       with:
-        credential_file: ${{ secrets.SERVICE_ACCOUNT_KEY }}
+        service_account_key: ${{ secrets.SERVICE_ACCOUNT_KEY }}
         project_id: ${{ env.PROJECT_ID }}
+        export_default_credentials: true
 
     - name: Build Docker image
       run: docker build -t $IMAGE_NAME:latest .

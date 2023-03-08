@@ -7,7 +7,7 @@ resource "kubernetes_service" "my_service" {
     spec {
         type = "LoadBalancer"
 
-        selectar = {
+        selector = {
             app = "my-app"
         }
 

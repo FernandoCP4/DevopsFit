@@ -1,5 +1,5 @@
 #Kubernetes deployment
-resource "kuberenetes_deployment" "my_deployment" {
+resource "kubernetes_deployment" "my_deployment" {
     metadata {
         name = "my-deployment"
     }
@@ -22,7 +22,7 @@ resource "kuberenetes_deployment" "my_deployment" {
 
             spec {
                 container {
-                    image = data.google_container_registry_image.my_flask_app
+                    image = data.google_container_registry_image.my_flask_app.name
                     name = "my-flask-app"
                 }
             }

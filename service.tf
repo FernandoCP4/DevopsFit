@@ -8,7 +8,7 @@ resource "kubernetes_service" "my_service" {
         type = "LoadBalancer"
 
         selector = {
-            app = "my-app"
+            app = "my-flask-app"
         }
 
         port {

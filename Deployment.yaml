@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: app
-          image: gcr.io/proyecto-retodevops/app@sha256:01daa61f449aa509c1602edf16978e9decdfc39cb9e947a90b4bd79a36fcc766
+          image: gcr.io/proyecto-retodevops/app:latest
           ports:
             - containerPort: 5000
